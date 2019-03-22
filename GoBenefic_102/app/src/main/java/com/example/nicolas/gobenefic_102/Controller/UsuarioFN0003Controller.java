@@ -14,7 +14,7 @@ public class UsuarioFN0003Controller {
     public final String SOAP_ACTION ="http://ws.sos.idat.edu.pe/FN0003";
     public final String OPERATION_NAME ="FN0003";
     public final String WSDL_TARGET_NAMESPACE ="http://ws.sos.idat.edu.pe/";
-    public final String SOAP_ADDRESS = "http://192.168.43.50:8080/WebAlertas/AlertasWS?WSDL";
+    //public final String SOAP_ADDRESS = "http://192.168.43.50:8080/WebAlertas/AlertasWS?WSDL";
 
      String strResult = null;
      JSONObject jsonObject = null;
@@ -29,7 +29,7 @@ public class UsuarioFN0003Controller {
         try {
             SoapClient soapClient = new SoapClient();
             String strRespones = soapClient.Call(WSDL_TARGET_NAMESPACE,
-                    SOAP_ADDRESS,OPERATION_NAME,mapParametros);
+                    UsuarioControllerGlobal.SOAP_ADDRESS,OPERATION_NAME,mapParametros);
             Log.e("RESULTADO",strRespones);
             jsonObject = new JSONObject(strRespones);
         }catch (Exception e){
