@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="5dp"
+    android:id="@+id/histo_item_id">
+
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/cv3"
+        android:layout_width="wrap_content"
+        android:layout_height="186dp"
+        app:cardCornerRadius="12dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="177dp"
+            android:padding="16dp">
+
+
+            <LinearLayout
+                android:id="@+id/email_login_form23"
+                android:layout_width="match_parent"
+                android:layout_height="174dp"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="91dp">
+
+                    <TextView
+                        android:id="@+id/txtVerificacion3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_alignParentEnd="true"
+                        android:paddingBottom="1dp"
+                        android:paddingTop="1dp"
+                        android:text="Pendiente"
+                        android:textSize="12sp"
+                        android:textStyle="bold"
+                        tools:ignore="NotSibling" />
+
+                    <TextView
+                        android:id="@+id/txtDescriMolde103"
+                        android:layout_width="54dp"
+                        android:layout_height="wrap_content"
+                        android:layout_above="@+id/txtVerificacion"
+                        android:layout_alignParentEnd="true"
+                        android:paddingBottom="1dp"
+                        android:paddingTop="1dp"
+                        android:text="Estado"
+                        android:textSize="12sp"
+                        android:textStyle="bold"
+                        tools:ignore="NotSibling" />
+
+                    <TextView
+                        android:id="@+id/txtefecti3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignEnd="@+id/txtFechaR3"
+                        android:layout_alignParentBottom="true"
+                        android:paddingBottom="1dp"
+                        android:paddingTop="1dp"
+                        android:text="000.00"
+                        android:textSize="12sp"
+                        android:textStyle="bold"
+                        tools:ignore="NotSibling" />
+
+                    <TextView
+                        android:id="@+id/txtDescriMolde83"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_centerHorizontal="true"
+                        android:paddingBottom="1dp"
+                        android:paddingTop="1dp"
+                        android:text="S./."
+                        android:textSize="12sp"
+                        android:textStyle="bold"
+                        tools:ignore="NotSibling" />
+
+                    <TextView
+                        android:id="@+id/txtFechaA3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_above="@+id/txtVerificacion3"
+                        android:layout_alignEnd="@+id/txtefecti3"
+                        android:paddingBottom="1dp"
+                        android:paddingTop="1dp"
+                        android:text="2018-08-03 21:32:54"
+                        android:textSize="12sp"
+                        tools:ignore="NotSibling" />
+
+                    <TextView
+                        android:id="@+id/txtFechaR3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignStart="@+id/txtAnonimo3"
+                        android:layout_centerVertical="true"
+                        android:paddingBottom="1dp"
+                        android:paddingTop="1dp"
+                        android:text="2018-08-03 21:32:54"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:id="@+id/txtDescriMolde63"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_alignParentStart="true"
+                        android:paddingBottom="1dp"
+                        android:paddingTop="1dp"
+                        android:text="Descripción :"
+                        android:textSize="12sp"
+                        android:textStyle="bold"
+                        tools:ignore="NotSibling" />
+
+                    <TextView
+                        android:id="@+id/txtDescriMolde73"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentStart="true"
+                        android:layout_centerVertical="true"
+                        android:paddingBottom="1dp"
+                        android:paddingTop="1dp"
+                        android:text="Fecha A. Donación:"
+                        android:textSize="12sp"
+                        android:textStyle="bold"
+                        tools:ignore="NotSibling" />
+
+                    <TextView
+                        android:id="@+id/txtDescriMolde53"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_above="@+id/txtVerificacion3"
+                        android:layout_alignParentStart="true"
+                        android:paddingBottom="1dp"
+                        android:paddingTop="1dp"
+                        android:text="Fecha R. Donación:"
+                        android:textSize="12sp"
+                        android:textStyle="bold"
+                        tools:ignore="NotSibling" />
+
+                    <TextView
+                        android:id="@+id/txtAnonimo3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/txtDescriMolde103"
+                        android:layout_centerHorizontal="true"
+                        android:paddingBottom="1dp"
+                        android:paddingTop="1dp"
+                        android:text="Anónimo"
+                        android:textSize="12sp"
+                        tools:ignore="NotSibling" />
+
+                    <ImageView
+                        android:id="@+id/imgMolde3"
+                        android:layout_width="47dp"
+                        android:layout_height="44dp"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentTop="true"
+                        android:foregroundGravity="left"
+                        app:srcCompat="@drawable/tel" />
+
+                    <TextView
+                        android:id="@+id/txtDescriMolde3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentStart="true"
+                        android:layout_below="@+id/txtDescriMolde103"
+                        android:paddingBottom="1dp"
+                        android:paddingTop="1dp"
+                        android:text="Donador :"
+                        android:textSize="12sp"
+                        android:textStyle="bold"
+                        tools:ignore="NotSibling" />
+                </RelativeLayout>
+
+                <ImageView
+                    android:id="@+id/imageLinea3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentTop="true"
+                    app:srcCompat="@drawable/linea" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="61dp">
+
+                    <TextView
+                        android:id="@+id/txtSeguimiento3"
+                        android:layout_width="315dp"
+                        android:layout_height="46dp"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginStart="13dp"
+                        android:lines="5"
+                        android:paddingBottom="1dp"
+                        android:paddingTop="1dp"
+                        android:text="Descripcion"
+                        android:textSize="12sp"
+                        tools:ignore="NotSibling" />
+                </RelativeLayout>
+
+
+            </LinearLayout>
+
+
+        </RelativeLayout>
+
+
+    </android.support.v7.widget.CardView>
+</LinearLayout>

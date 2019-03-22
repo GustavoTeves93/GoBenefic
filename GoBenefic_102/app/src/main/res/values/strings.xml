@@ -1,0 +1,85 @@
+<resources>
+    <string name="app_name">GoBenefic</string>
+    <string name="tab_text_1">Donaciones</string>
+    <string name="tab_text_2">Estadistica</string>
+    <string name="tab_text_3">Incidencias</string>
+    <string name="tab_text_4">Tab 4</string>
+
+    <string name="action_settings">Configuración</string>
+    <string name="action_close">Salir</string>
+
+    <string name="section_format">Hello World from section: %1$d</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <!--Nombres de navigation -->
+    <string name="title_home">DONACIONES</string>
+    <string name="title_dashboard">QUIERO DONAR</string>
+    <string name="title_notifications">PERFIL</string>
+
+    <string name="title_activity_registro">Registro</string>
+    <string name="title_activity_info">Información</string>
+    <string name="title_activity_dona">Donacion</string>
+    <string name="title_activity_login">GoBenefic</string>
+    <string name="title_activity_don">Realiza tu donación</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_nombre">Nombre</string>
+    <string name="prompt_apellido">Apellidos</string>
+    <string name="prompt_email">Correo</string>
+    <string name="prompt_password">Contraseña</string>
+    <string name="prompt_celular">Celular</string>
+    <string name="prompt_direccion">Direccion</string>
+    <string name="prompt_fecNaci">Fecha de Nacimiento</string>
+    <string name="prompt_pregunta">Pregunta Secreta</string>
+    <string name="prompt_respuesta">Respuesta Secreta</string>
+
+    <string name="prompt_donar">Ingrese lo que desee donar</string>
+    <string name="prompt_efectivo">S/.Efectivo</string>
+    <string name="prompt_contacto">Celular</string>
+    <string name="prompt_dir">Dirección de recojo (opcional)</string>
+    <string name="prompt_comentario">Dejanos tu opinión (opcional)</string>
+
+    <string name="action_sign_in">Ingresar</string>
+    <string name="action_sign_in_short">Registrarse</string>
+    <string name="action_registrar">Registrar</string>
+
+    <!-- Strings related to login -->
+    <string name="error_invalid_nombre">Ingrese su nombre</string>
+    <string name="error_invalid_apellido">Ingrese sus apellidos</string>
+    <string name="error_invalid_celular">Ingrese su celular</string>
+    <string name="error_invalid_direccion">Ingrese su direccion</string>
+
+    <string name="error_invalid_fecNaci">Ingrese formato DD/MM/AAAA</string>
+
+    <string name="error_invalid_pregunta">Ingrese pregunta secreta</string>
+    <string name="error_invalid_respuesta">Ingrese respuesta secreta</string>
+
+    <string name="error_invalid_email">Este correo es invalido</string>
+    <string name="error_invalid_password">Ingrese una contraseña</string>
+    <string name="error_invalid_password_corta">Esta contraseña es corta</string>
+    <string name="error_incorrect_password">Esta contraseña es incorrecta</string>
+
+    <string name="error_incorrect_respuesta">Esta contraseña es incorrecta</string>
+
+    <string name="error_field_required">Este campo es requerido</string>
+
+    <string name="error_incorrect_otros">Su donación es de gran ayuda, ingrese los datos nos pondremos en contacto! </string>
+    <string name="error_incorrect_efectivo">Ingrese un monto valido</string>
+    <string name="error_incorrect_cel">Ingrese su celular</string>
+    <string name="error_incorrect_dir">Dirección fuera de umbrales</string>
+    <string name="error_incorrect_comen">Disculpe excedio los umbrales</string>
+
+
+    <string name="permission_rationale">"Los permisos de contactos son necesarios para proporcionar correo electrónico terminaciones."
+    </string>
+
+
+    <string name="facebook_app_id">2176090969289153</string>
+    <string name="facebook_login_protocol_scheme">fb2176090969289153</string>
+    <string name="title_activity_mainface">MainfaceActivity</string>
+
+
+</resources>

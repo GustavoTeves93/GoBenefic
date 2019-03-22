@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_horizontal"
+    tools:context=".RealizarDonaActivity"
+    tools:layout_editor_absoluteY="81dp">
+
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="330dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="3dp"
+        android:layout_marginEnd="7dp"
+        android:layout_marginLeft="7dp"
+        android:layout_marginRight="7dp"
+        android:layout_marginStart="7dp"
+        android:layout_marginTop="3dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+
+
+            <ImageView
+                android:id="@+id/imgDonador"
+                android:layout_width="384dp"
+                android:layout_height="286dp"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/tel"
+                tools:layout_editor_absoluteY="14dp" />
+
+            <TextView
+                android:id="@+id/txttitulo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="5dp"
+                android:text="Descripción"
+                tools:layout_editor_absoluteX="21dp"
+                tools:layout_editor_absoluteY="311dp" />
+            <ImageView
+                android:id="@+id/imageLinea1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                app:srcCompat="@drawable/linea" />
+
+            <TextView
+                android:id="@+id/txtDescri"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Descripción    : Buscamos, crear espacios de integración entre voluntarios, niños, familias y la comunidad en general, a través de proyectos participativos y de la comunicación de la obra Teletón.
+Tenemos una visión orientada a la plena integración de las personas que viven con alguna discapacidad en nuestro país."
+                tools:layout_editor_absoluteX="21dp"
+                tools:layout_editor_absoluteY="311dp" />
+            <TextView
+                android:id="@+id/txtContactenos"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="5dp"
+                android:text="Contactenos   : 968468315"
+                tools:layout_editor_absoluteX="21dp"
+                tools:layout_editor_absoluteY="311dp" />
+
+            <TextView
+                android:id="@+id/txtDepartamento"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="5dp"
+                android:text="Departamento   : Lima"
+                tools:layout_editor_absoluteX="21dp"
+                tools:layout_editor_absoluteY="311dp" />
+
+            <TextView
+                android:id="@+id/txtProvincia"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="5dp"
+                android:text="Provincia      : Lima"
+                tools:layout_editor_absoluteX="21dp"
+                tools:layout_editor_absoluteY="311dp" />
+
+            <TextView
+                android:id="@+id/txtDistrito"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="5dp"
+                android:text="Distrito       : Lima"
+                tools:layout_editor_absoluteX="21dp"
+                tools:layout_editor_absoluteY="311dp" />
+
+
+            <TextView
+                android:id="@+id/txtfechaI"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="5dp"
+                android:text="Fecha Inicio      :"
+                tools:layout_editor_absoluteX="21dp"
+                tools:layout_editor_absoluteY="311dp" />
+
+            <TextView
+                android:id="@+id/txtfechaF"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="5dp"
+                android:text="Fecha Fin      :"
+                tools:layout_editor_absoluteX="21dp"
+                tools:layout_editor_absoluteY="311dp" />
+            <RelativeLayout
+                android:layout_width="403dp"
+                android:layout_height="wrap_content">
+
+                <Button
+                    android:id="@+id/btnDonarDinero"
+                    android:layout_width="144dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:text="Dona dinero"
+                    tools:layout_editor_absoluteX="16dp"
+                    tools:layout_editor_absoluteY="459dp"
+                    android:visibility="invisible"/>
+
+                <Button
+                    android:id="@+id/btnDonarOtros"
+                    android:layout_width="159dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginEnd="76dp"
+                    android:text="DONA OTROS"
+                    tools:layout_editor_absoluteX="209dp"
+                    tools:layout_editor_absoluteY="459dp" />
+
+            </RelativeLayout>
+
+
+        </LinearLayout>
+    </ScrollView>
+</android.support.constraint.ConstraintLayout>
